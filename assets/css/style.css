@@ -1,0 +1,21 @@
+#name{
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+strong{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.button{
+    text-align: center;
+}
+
+.html-links{
+    float: right;
+}
