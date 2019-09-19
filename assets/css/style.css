@@ -1,26 +1,30 @@
 #name{
-background-color: #4aaaa5;
-width: 200px;
-color: white;
-float: left;
-padding: 10px;
-margin: -10px 0px 0px 150px;
-z-index: 2;
+    background-color: #4aaaa5;
+    width: 275px;
+    color: white;
+    float: left;
+    padding: 20px;
+    margin: 0px 0px 0px 195px;
+    z-index: 2;
+    position: relative;
+    height: 88px;
+    text-align: center;
+
 }
 
 .about-me::after{
-content: "";
-clear: both;
-display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .about-me{
-    border: .5px solid #cccccc;
-    margin-bottom: 5px;
-    padding: 5px 5px 5px 5px;
+    border: .5px solid #dddddd;
+    padding: 10px;
     background-color: #ffffff;
-    margin: 25px 25px 25px 25px;
-
+    margin: 0 auto;
+    width: 960px;
+    line-height: 2;
 }
 
 * {
@@ -33,34 +37,51 @@ strong{
     font-size: 30px;
 }
 
-.button{
+.dog{
     text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #666666;
+}
+
+.span{
+    color: #cccccc;
+}
+
+.link-box{
+    margin-top: 25px;
+    margin-right: 196px;
+    float: right;
 }
 
 .html-links{
     float: right;
     position: relative;
     z-index: 2;
-    }
+    font-size: 20px;
+}
+
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: #bbbbbb;
+}
 
 header{
-    border-bottom: 2px solid #dddddd;
+    border-bottom: 3px solid #cccccc;
     position: relative;
-    height: 26.5px;
+    height: 90px;
     z-index: 1;
+    background-color: #ffffff;
 }
 
 footer{
     background-color: #666666;
     text-align: center;
-    font-size: 8px;
+    font-size: 12px;
     padding: 15px;
-    border-top: 2px solid #4aaaa5;
+    border-top: 5px solid #4aaaa5;
     color: #ffffff;
-    height: 15px;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+    
 }
 
 h2{
@@ -69,11 +90,22 @@ h2{
     padding: -10px 0px 10px 15px;
     font-size: 24px;
 }
+
 #cat-pic{
-float: left;
-position: relative;
+    float: left;
+    position: relative;
+    margin: 5px;
 }
 
 body{
-    background-image: url("assets/images/ripples.png");
+    background-image: url("../assets/images/trees.png");
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+}
+
+.body-para{
+    color: #777777;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
