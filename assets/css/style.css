@@ -1,6 +1,6 @@
 #name{
     background-color: #4aaaa5;
-    width: 275px;
+    width: 325px;
     color: white;
     float: left;
     padding: 20px;
@@ -9,32 +9,28 @@
     position: relative;
     height: 88px;
     text-align: center;
-
-}
-
-.about-me::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.about-me{
-    border: .5px solid #dddddd;
-    padding: 10px;
-    background-color: #ffffff;
-    margin: 0 auto;
-    width: 960px;
-    line-height: 2;
 }
 
 * {
     box-sizing: border-box;
 }
 
+.about-me{
+    border: .5px solid #dddddd;
+    padding: 15px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 960px;
+    line-height: 2.5;
+    position: sticky;
+}
+
+
 strong{
     color: black;
     font-weight: bold;
     font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .dog{
@@ -49,21 +45,20 @@ strong{
 }
 
 .link-box{
-    margin-top: 25px;
-    margin-right: 196px;
-    float: right;
+    position: relative;
+    left: 24%;
+    top: 37%;
+    display: inline-block;
 }
 
 .html-links{
-    float: right;
-    position: relative;
     z-index: 2;
     font-size: 20px;
 }
 
 a:link, a:visited, a:hover, a:active{
     text-decoration: none;
-    color: #bbbbbb;
+    color: #777777;
 }
 
 header{
@@ -72,22 +67,30 @@ header{
     height: 90px;
     z-index: 1;
     background-color: #ffffff;
+    width: 100%;
+    display: inline-block;
+    min-width: 1250px;
 }
 
 footer{
     background-color: #666666;
     text-align: center;
     font-size: 12px;
-    padding: 15px;
+    padding: 25px 15px 0px 15px;
     border-top: 5px solid #4aaaa5;
     color: #ffffff;
-    
+    width: 100%;
+    display: inline-block;
+    height: 75px;
+    min-width: 1250px;
+    position: relative;
+    bottom: 0%;
+
 }
 
-h2{
+h2, h3{
     color: #4aaaa5;
     border-bottom: 3px solid #cccccc;
-    padding: -10px 0px 10px 15px;
     font-size: 24px;
 }
 
@@ -98,7 +101,6 @@ h2{
 }
 
 body{
-    background-image: url("../assets/images/trees.png");
     margin: 0px;
     padding: 0px;
     background-size: cover;
@@ -108,4 +110,15 @@ body{
     color: #777777;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactTable, .portTable{
+    border: .5px solid #dddddd;
+    width: 960px;
+    height: 100vh;
+    background-color: #ffffff;
+    margin: 0 auto;
+    position: sticky;
+    padding: 15px;
+    line-height: 2.5;
 }
