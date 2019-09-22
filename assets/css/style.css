@@ -94,10 +94,11 @@ h2{
     font-size: 24px;
 }
 
-#cat-pic{
+#me-pic{
     float: left;
     position: relative;
-    margin: 5px;
+    margin: 10px;
+    transform: rotate(90deg);
 }
 
 body{
@@ -125,6 +126,10 @@ body{
     position: sticky;
     padding: 15px;
     line-height: 2.5;
+}
+
+.contactTable{
+    height: 120vh;
 }
 
 .cat{
@@ -180,4 +185,26 @@ body{
     left: 2.2%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+
+input[type=text],
+select, textarea{
+    width: 100%;
+    padding: 8px;
+    border: .5px solid #cccccc;
+    border-radius: 4px;
+}
+
+label{
+    font-size: 20px;
+    color: #777777;
+}
+
+input[type=submit]{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #4aaaa5;
+    border-radius: 4px;
+    width: 10%;
 }
