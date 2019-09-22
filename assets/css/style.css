@@ -88,7 +88,7 @@ footer{
 
 }
 
-h2, h3{
+h2{
     color: #4aaaa5;
     border-bottom: 3px solid #cccccc;
     font-size: 24px;
@@ -106,6 +106,10 @@ body{
     background-size: cover;
 }
 
+.pics{
+    position: relative;
+}
+
 .body-para{
     color: #777777;
     font-size: 18px;
@@ -115,10 +119,65 @@ body{
 .contactTable, .portTable{
     border: .5px solid #dddddd;
     width: 960px;
-    height: 100vh;
+    height: 150vh;
     background-color: #ffffff;
     margin: 0 auto;
     position: sticky;
     padding: 15px;
     line-height: 2.5;
+}
+
+.cat{
+    margin: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner2, #banner4{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 2;
+    width: 250px;
+    text-align: center; 
+    top: 60%;
+    right: 39.25%;
+    display: inline-flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#banner3, #banner1{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 2;
+    width: 250px;
+    text-align: center; 
+    top: 60%;
+    left: 2.2%;
+    display: inline-flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#banner5{
+    position: absolute;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 2;
+    width: 250px;
+    text-align: center; 
+    top: 60%;
+    left: 2.2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
